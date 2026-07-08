@@ -1,0 +1,178 @@
+body{
+    margin:0;
+    background:#0f172a;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.dashboard{
+    padding:35px;
+    color:white;
+}
+
+.welcome-card{
+    background:linear-gradient(135deg,#7c3aed,#4f46e5);
+    padding:30px;
+    border-radius:18px;
+    margin-bottom:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.welcome-card h1{
+    margin:0;
+    font-size:34px;
+}
+
+.welcome-card p{
+    margin-top:10px;
+    color:#e2e8f0;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:35px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card h3{
+    color:#94a3b8;
+    margin-bottom:12px;
+}
+
+.card h2{
+    margin:0;
+    font-size:32px;
+}
+
+.action-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.action-buttons button{
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.action-buttons button:hover{
+    background:#6d28d9;
+}
+
+.recent-section{
+    margin-top:40px;
+}
+
+.recent-card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:25px;
+}
+
+.recent-item{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid #334155;
+}
+
+.recent-item:last-child{
+    border-bottom:none;
+}
+
+.badge{
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.active{
+    background:#22c55e;
+}
+
+.pending{
+    background:#f59e0b;
+    color:black;
+}
+
+.rejected{
+    background:#ef4444;
+}
+
+.expired{
+    background:#64748b;
+}
+.pending-campaign-card {
+  background: #1c2340;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  transition: 0.3s;
+}
+
+.pending-campaign-card:hover {
+  transform: translateY(-3px);
+  border-color: #7c3aed;
+}
+
+.pending-campaign-card h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.pending-campaign-card p {
+  margin: 8px 0;
+  color: #d1d5db;
+}
+
+.approve-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.approve-btn:hover {
+  background: #16a34a;
+}
+
+.reject-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.reject-btn:hover {
+  background: #dc2626;
+}

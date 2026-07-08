@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdVantage - ROI Calculator</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/roi.css" />
+  </head>
+  <body>
+    <div id="navbar-root"></div>
+
+    <div class="roi-page">
+      <div class="roi-card">
+        <h2>Campaign ROI Calculator</h2>
+
+        <input type="number" id="campaign-id" placeholder="Enter Campaign ID" />
+
+        <button id="calc-roi-btn">Calculate ROI</button>
+
+        <div id="roi-result-container"></div>
+      </div>
+    </div>
+
+    <script type="module" src="js/pages/roi.js"></script>
+  </body>
+</html>

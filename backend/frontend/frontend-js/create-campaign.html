@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdVantage - Create Campaign</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/create-campaign.css" />
+  </head>
+  <body>
+    <div id="navbar-root"></div>
+
+    <div class="create-page">
+      <div class="create-card">
+        <h2>Create Campaign</h2>
+
+        <input type="text" id="name" placeholder="Campaign Name" />
+
+        <input type="number" id="budget" placeholder="Budget" />
+
+        <input type="number" id="targetRoi" placeholder="Target ROI" />
+
+        <input type="date" id="startDate" />
+
+        <input type="date" id="endDate" />
+
+        <button id="submit-btn">Create Campaign</button>
+      </div>
+    </div>
+
+    <script type="module" src="js/pages/createCampaign.js"></script>
+  </body>
+</html>

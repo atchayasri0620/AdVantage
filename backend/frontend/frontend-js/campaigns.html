@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdVantage - Campaigns</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/campaigns.css" />
+  </head>
+  <body>
+    <div id="navbar-root"></div>
+
+    <div class="campaign-page">
+      <h1 class="campaign-title">Campaigns</h1>
+
+      <div class="search-bar">
+        <input type="text" id="search-name" placeholder="Search Campaign Name" />
+        <button id="search-name-btn">Search</button>
+
+        <input type="text" id="search-status" placeholder="Search Status" />
+        <button id="search-status-btn">Filter</button>
+      </div>
+
+      <div class="campaign-grid" id="campaign-grid"></div>
+    </div>
+
+    <script type="module" src="js/pages/campaigns.js"></script>
+  </body>
+</html>

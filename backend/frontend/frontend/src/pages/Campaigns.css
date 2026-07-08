@@ -1,0 +1,105 @@
+.campaign-page {
+  padding: 40px;
+}
+
+.campaign-title {
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+.search-bar button {
+  background: #7c3aed;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-bar button{
+    min-width:110px;
+}
+.campaign-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.campaign-card{
+    transition:0.3s ease;
+}
+
+.campaign-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+.campaign-card h2 {
+  margin-bottom: 10px;
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.active {
+  background: #16a34a;
+}
+
+.pending{
+    background:#f59e0b;
+    color:#000;
+}
+
+.rejected{
+    background:#ef4444;
+    color:white;
+}
+
+.expired{
+    background:#64748b;
+    color:white;
+}
+
+.card-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.card-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.edit-btn {
+  background: #2563eb;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
