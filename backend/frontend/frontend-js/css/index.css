@@ -65,3 +65,9 @@ input:focus{
   background:#22c55e;
   color:white;
 }
+.contact-admin{
+    margin-top:16px;
+    text-align:center;
+    font-size:13px;
+    color:#6c757d;
+}

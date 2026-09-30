@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Converted from the React (Vite) frontend. Spring Boot backend, API endpoints, request/response JSON, and JWT auth flow are **unchanged**.",
+  "main": "index.js",
+  "scripts": {
+  "start": "http-server -c-1 ."
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atchayasri0620/AdVantage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/atchayasri0620/AdVantage/issues"
+  },
+  "homepage": "https://github.com/atchayasri0620/AdVantage#readme",
+  "dependencies": {
+    "axios": "^1.18.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
